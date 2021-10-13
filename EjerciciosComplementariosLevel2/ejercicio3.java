@@ -18,7 +18,7 @@ public class ejercicio3 {
         System.out.println(baraja.get(i));
      }
      System.out.println("Mezclado");
-     Collections.sort(baraja);
+     Collections.shuffle(baraja);
      for(int i=0;i<baraja.size();i++){
         System.out.println(baraja.get(i));
      }
